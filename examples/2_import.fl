@@ -1,0 +1,9 @@
+// @flow
+
+const {hello} = require('./1_hello');
+
+const names: string[] = ['World'];
+
+for (let i = 0; i < names.length; i++) {
+	hello(names[i]);
+}

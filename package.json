@@ -1,0 +1,26 @@
+{
+  "name": "flow-compile",
+  "version": "1.0.0",
+  "description": "Recursive remove-flow-types for *.fl files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarly/flow-compile.git"
+  },
+  "keywords": [
+    "flow",
+    "flowtype"
+  ],
+  "author": "Alexander Abramov <aleksandr.abramov@phystech.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zarly/flow-compile/issues"
+  },
+  "homepage": "https://github.com/zarly/flow-compile#readme",
+  "dependencies": {
+    "flow-remove-types": "^1.2.3"
+  }
+}
