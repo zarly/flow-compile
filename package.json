@@ -1,6 +1,6 @@
 {
   "name": "flow-compile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursive remove-flow-types for *.fl files",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zarly/flow-compile/issues"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "homepage": "https://github.com/zarly/flow-compile#readme",
   "dependencies": {
