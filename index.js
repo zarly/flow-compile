@@ -63,7 +63,7 @@ async function iterate (gen, handle) {
 }
 
 async function compileFlowFile (path) {
-	const outputFilePath = path.replace(FLOW_PATTERN, '.js');
+	const outputFilePath = path + '.js';
 	const input = fs.readFileSync(path, 'utf8');
 
 	let output;

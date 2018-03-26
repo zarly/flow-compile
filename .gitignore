@@ -61,4 +61,4 @@ typings/
 .idea
 
 # example build
-examples/*.js
+*.fl.js
